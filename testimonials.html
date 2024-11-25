@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldrin's Brewed Coffee</title>
+    <!--Linking Font Awesome for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="kapeeebago-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--Header/Navbar-->
+    <header>
+        <nav class= "navbar section-content">
+            <a href="#" class="nav-logo">
+            <h2 class="logo-text">☕Aldrin's Brewed Coffee</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="display.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+<main>
+    <!--Testimonials Section-->
+    <section class="testimonials-section">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+        <div class="slider-container swiper">
+            <div class="slider-wrapper">
+                <ul class="testimonials-list swiper-wrapper">
+                    <li class="testimonial swiper-slide">
+                        <img src="tope.jpg" alt="" class="user-image">
+                        <h3 class="name">Christopher Alfanta</h3>
+                        <i class="feedback">"Ganahan ko sa iced coffee kay perfectly balanced and rich,
+                             probably I'll order it again."</i>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img src="kyle.jpg" alt="" class="user-image">
+                        <h3 class="name">Aldrian Kyle Cabrera</h3>
+                        <i class="feedback">"Excellent quality. Fresh beans and best service,
+                            highly recommended."</i>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button 
+                swiper-button-prev"></div>
+                <div class="swiper-slide-button 
+                swiper-button-next"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+</main>
+ <!--Linking Swiper script-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <!--Linking custom script-->
+<script src="script.js">
+
+</script>
+
+</script>
+</body>
+</html>
